@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: black;
+  color: white;
+}
+/*Header*/
+header h1 {
+  font-weight: 500;
+  font-size: 50xp;
+  margin: 0;
+  padding: 0.5em;
+  text-align: center;
+}
+header img {
+  width: 100%;
+}
+/*Descripcion*/
+.description {
+  padding: 5% 15%;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.parrafo {
+  width: 45%;
+  display: inline-block;
+  /* padding-top: 10px;
+  padding-right: 10px; */
+  margin: 10px;
+  text-align: justify;
+}
+
+.parrafo p {
+  font-weight: 300;
+}
+
+.description img {
+  float: right;
+  width: 45%;
+}
+
+/* Seccion de iconos */
+.iconos {
+  background-color: #1e1a13;
+  text-align: center;
+  padding: 3rem 25%;
+  font-weight: 300;
+}
+.iconos h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.icono i {
+  display: block;
+  font-size: 3em;
+  margin-bottom: 1rem;
+}
+.icono {
+  width: 29%;
+  display: inline-block;
+  padding: 2%;
+}
+/* GALERIA */
+.galeria {
+  padding-left: 10%;
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.galeria img {
+  width: 30%;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.footer {
+  background-color: #1e1a13;
+  text-align: center;
+  padding: 2em;
+}
+
+.footer span{
+  font-size: 20px;
+  font-weight: 300;
+}
+.footer a{
+  color: white;
+  text-decoration: none;
+}
